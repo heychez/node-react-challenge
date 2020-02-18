@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.todo-header {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+}
+.todo-item .todo-item-text {
+  text-align: left;
+  flex-grow: 1;
+}
