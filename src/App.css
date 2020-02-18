@@ -47,4 +47,11 @@
 .todo-item .todo-item-text {
   text-align: left;
   flex-grow: 1;
+  margin-right: 10px;
+}
+.todo-item .todo-action {
+  margin-left: 10px;
+}
+.todo-item .todo-item-text.done {
+  text-decoration: line-through;
 }
